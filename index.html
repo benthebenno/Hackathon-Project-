@@ -12,11 +12,19 @@
 <body>
     <div class="border">
         <div class="sign-content">
-            <form action="/submitride.html">
+            <form action="/submitride.html" onsubmit="return true;" method="post">
                 <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email" value=""><br>
                 <label for="password">Password:</label><br>
                 <input type="password" id="pword" name="pword" value=""><br><br>
+
+
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">User</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Driver</label><br>
+                <p></p>
+
                 <input type="submit" value="Submit">
             </form>
         </div>
