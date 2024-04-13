@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obie Shuttle Sign In</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="myScript.js"></script>
 </head>
 
 <body>
-
-    <div class="sign-content">
-        Hello
-
+    <div class="border">
+        <div class="sign-content">
+            <form action="/submitRide.html">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="pword" name="pword" value=""><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 </body>
 

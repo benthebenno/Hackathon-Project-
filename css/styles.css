@@ -5,11 +5,100 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+
+}
+
+.border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightgrey;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sign-content {
-    width: 20vw;
+    padding-top: 10%;
+    width: 40vw;
     height: 40vh;
     background-color: lightgrey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: 0%;
+    margin: 0%;
+    border-radius: 15%;
+}
+
+
+.submit-content {
+    padding-top: 10%;
+    width: 40vw;
+    height: 40vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.waiting-content {
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+}
+
+.waiting {
+    height: 35vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightgrey;
+
+}
+
+img {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 200%;
+}
+
+.subscript {
+    font-size: medium;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 90%;
+}
+
+
+select {
+    width: 35vw;
+    height: 4vh;
+    font-size: large;
+}
+
+.waiting-images {
+    width: 60vw;
+    height: 20vh;
+}
+
+
+input[type=password] {
+    width: 90%;
 
 }
