@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(156, 25, 48, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sign-content {
+    width: 20vw;
+    height: 40vh;
+    background-color: lightgrey;
+
+}
